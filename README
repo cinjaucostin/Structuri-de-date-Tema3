@@ -1,0 +1,5 @@
+Cerinta 1
+    ->Ideea principala pe care m-am bazat la aceasta cerinta a fost o parcurgere de tip DFS putin modificata.
+    ->Marcam de aceasta data cu -1 nodurile care nu au fost descoperite, cu 0 nodurile descoperite dar care nu au fost parcurse in totalitate:adica nu am parcurs fiecare nod adiacent la ele si cu 1 nodurile descoperite si parcurse in totalitate.
+    ->Daca in urma unei parcurgeri un nod avea valoarea -1 in vectorul visit asta inseamna ca nu am ajuns deloc in el si ca de fapt exista un ciclu in graful nostru.
+    ->O mentiune ar fi de asemenea ca nu am retinut numele nodurilor, am lucrat doar cu cate un index pentru fiecare dintre acestia in functie de ordinea in care ii primeam pe a 2-a linie din input.
